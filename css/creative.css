@@ -302,6 +302,16 @@ header.masthead p {
   border-color: #F05F40;
 }
 
+.btn-secondary {
+  background-color: aliceblue;
+  border-color: #ee4b28;
+}
+
+.btn-secondary:hover, .btn-primary:focus, .btn-primary:active {
+  color: #212529;
+  background-color: #fff !important;
+}
+
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #fff;
   background-color: #ee4b28 !important;
